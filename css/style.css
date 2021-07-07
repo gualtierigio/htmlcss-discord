@@ -5,18 +5,39 @@
 }
 
 body{
-    max-width: 1250px;
-    min-width: 780px;
+    min-width: 1250px;
+    font-family: 'Lato', sans-serif;
 }
 
 a{
     text-decoration: none;
 }
 
+.small-text{
+    font-size: 14px;
+}
+
+.med-text{
+    font-size: 22px;
+}
+
+.big-text{
+    font-size: 35px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+
+
 .jumbotron{
     background-image: url(../img/jumbo.png);
     height: 65vh;
-    width: 100vw;
     background-size: cover; 
 }
 
@@ -27,12 +48,12 @@ a{
 }
 
 header{
-    border: 1px solid red;
+    min-width: 1250px;
     height: 70px;
+    padding-top: 20px;
 }
 
 nav{
-    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -48,19 +69,18 @@ nav ul{
     display: inline-block;
 }
 
-nav ul li{
+nav ul.top-menù li{
     display: inline-block;
     padding: 0 20px;
 }
 
 .top-menù{
-    border: 1px solid red;
+    padding-right: 200px;
     padding-left: 150px;
 }
 
-ul.accedi button{
-    position: absolute;
-    right: 0;
-    top: 40%;
-    transform: translate(-50% -50%);
+.button-size{
+    padding: 0.4em 0.8em;
+    border-radius: 8em;
+    background-color: white;
 }
