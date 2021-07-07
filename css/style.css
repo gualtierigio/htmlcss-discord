@@ -22,7 +22,7 @@ a{
 }
 
 .big-text{
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .text-white{
@@ -43,6 +43,10 @@ a{
 
 .bold{
     font-weight: 900;
+}
+
+.line-height{
+    line-height: 1.5em;
 }
 
 .jumbotron{
@@ -112,10 +116,50 @@ section#jumbo-content h1{
 }
 
 section#jumbo-content p{
-    line-height: 1.5em;
     padding-bottom: 20px;
 }
 
 section#jumbo-content li.bg-black{
     margin-left: 20px;
+}
+
+.row-container{
+    border: 1px solid red;
+    height: 65vh;
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 80px;
+}
+
+.img-study-group{
+    border: 1px solid red;
+    width: 50%;
+    display: inline-block;
+}
+
+aside.img-study-group img{
+    width: 100%;
+}
+
+.article h1{
+    padding-bottom: 30px;
+}
+
+.article-rules{
+    display: inline-block;
+    border: 1px solid red;
+    width: 35%;
+    color: rgba(71, 68, 68, 0.918);
+}
+
+.article-right{
+    position: absolute;
+    right: 0;
+}
+
+.article-left{
+    position: absolute;
+    left: 0;
 }
