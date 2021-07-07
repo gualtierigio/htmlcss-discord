@@ -124,7 +124,6 @@ section#jumbo-content li.bg-black{
 }
 
 .row-container{
-    border: 1px solid red;
     height: 65vh;
     width: 70%;
     min-width: 800px;
@@ -134,7 +133,6 @@ section#jumbo-content li.bg-black{
 }
 
 .img-study-group{
-    border: 1px solid red;
     width: 50%;
     display: inline-block;
 }
@@ -149,17 +147,24 @@ aside.img-study-group img{
 
 .article-rules{
     display: inline-block;
-    border: 1px solid red;
     width: 35%;
     color: rgba(71, 68, 68, 0.918);
 }
 
-.article-right{
+.position-right{
     position: absolute;
     right: 0;
 }
 
-.article-left{
+.position-left{
     position: absolute;
     left: 0;
+}
+
+li.button-size:hover a{
+    color: rgba(34, 67, 233, 0.551);
+}
+
+li.button-size:hover {
+    opacity: 0.9;
 }
