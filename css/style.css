@@ -18,11 +18,11 @@ a{
 }
 
 .med-text{
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .big-text{
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .text-white{
@@ -33,12 +33,23 @@ a{
     color: black;
 }
 
+.bg-white{
+    background-color: white;
+}
 
+.bg-black{
+    background-color: black;
+}
+
+.bold{
+    font-weight: 900;
+}
 
 .jumbotron{
     background-image: url(../img/jumbo.png);
     height: 65vh;
-    background-size: cover; 
+    background-size: cover;
+    position: relative;
 }
 
 .clearfix{
@@ -72,6 +83,7 @@ nav ul{
 nav ul.top-menù li{
     display: inline-block;
     padding: 0 20px;
+    font-weight: bold;
 }
 
 .top-menù{
@@ -80,7 +92,30 @@ nav ul.top-menù li{
 }
 
 .button-size{
-    padding: 0.4em 0.8em;
+    padding: 10px 20px;
     border-radius: 8em;
-    background-color: white;
+    display: inline-block;
+}
+
+#jumbo-content{
+    width: 45%;
+    min-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+section#jumbo-content h1{
+    padding-bottom: 40px;
+}
+
+section#jumbo-content p{
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
+section#jumbo-content li.bg-black{
+    margin-left: 20px;
 }
