@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    max-width: 1250px;
+    min-width: 780px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    height: 65vh;
+    width: 100vw;
+    background-size: cover; 
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    border: 1px solid red;
+    height: 70px;
+}
+
+nav{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul.logo img{
+    width: 100px;
+    vertical-align: middle;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.top-menù{
+    border: 1px solid red;
+    padding-left: 150px;
+}
+
+ul.accedi button{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translate(-50% -50%);
+}
